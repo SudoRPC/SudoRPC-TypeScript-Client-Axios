@@ -1,0 +1,40 @@
+{
+  "name": "@sudorpc/client-http",
+  "version": "1.0.0",
+  "description": "HTTP client for SudoRPC Client",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoRPC/SudoRPC-TypeScript-Client-HTTP.git"
+  },
+  "keywords": [
+    "RPC"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoRPC/SudoRPC-TypeScript-Client-HTTP/issues"
+  },
+  "homepage": "https://github.com/SudoRPC/SudoRPC-TypeScript-Client-HTTP#readme",
+  "peerDependencies": {
+    "@sudorpc/core": "*"
+  },
+  "devDependencies": {
+    "@sudoo/triforce": "^3.7.0",
+    "@sudorpc/core": "^1.1.0"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
