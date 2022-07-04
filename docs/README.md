@@ -7,6 +7,8 @@
 
 HTTP client for SudoRPC Client
 
+## Install
+
 ```sh
 yarn add @sudorpc/client-http
 yarn add @sudorpc/core # Peer Dependency
