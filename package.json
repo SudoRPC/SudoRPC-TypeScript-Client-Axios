@@ -1,10 +1,10 @@
 {
-  "name": "@sudorpc/client-http",
+  "name": "@sudorpc/client-axios",
   "version": "1.0.0",
-  "description": "HTTP client for SudoRPC Client",
+  "description": "Axios client for SudoRPC Client",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SudoRPC/SudoRPC-TypeScript-Client-HTTP.git"
+    "url": "git+https://github.com/SudoRPC/SudoRPC-TypeScript-Client-Axios.git"
   },
   "keywords": [
     "RPC"
@@ -12,15 +12,15 @@
   "author": "WMXPY",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SudoRPC/SudoRPC-TypeScript-Client-HTTP/issues"
+    "url": "https://github.com/SudoRPC/SudoRPC-TypeScript-Client-Axios/issues"
   },
-  "homepage": "https://github.com/SudoRPC/SudoRPC-TypeScript-Client-HTTP#readme",
+  "homepage": "https://github.com/SudoRPC/SudoRPC-TypeScript-Client-Axios#readme",
   "peerDependencies": {
     "@sudorpc/core": "*"
   },
   "devDependencies": {
     "@sudoo/triforce": "^3.7.0",
-    "@sudorpc/core": "^1.1.0"
+    "@sudorpc/core": "^1.2.0"
   },
   "nyc": {
     "extension": [
